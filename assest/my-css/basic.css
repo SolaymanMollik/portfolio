@@ -1,0 +1,76 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: var(--body-bgi);
+}
+
+/* tailwind crash item */
+.wrap {
+  flex-wrap: wrap;
+}
+
+/* theme  */
+.dark {
+  --color: #fff;
+  --bgc: #000;
+  --con: #ffffffbb;
+  --skill: yellow;
+  --body-bgi: linear-gradient(
+    to right bottom,
+    darkblue,
+    rgb(10, 10, 114),
+    rgb(9, 9, 60),
+    rgb(7, 7, 93),
+    rgb(41, 41, 81),
+    darkblue,
+    rgb(10, 10, 114),
+    rgb(9, 9, 60),
+    rgb(7, 7, 93),
+    rgb(41, 41, 81),
+    rgb(7, 7, 93),
+    rgb(41, 41, 81),
+    darkblue,
+    darkblue,
+    rgb(33, 33, 147),
+    darkblue,
+    darkblue,
+    rgb(33, 33, 147),
+    rgb(7, 7, 83),
+    rgb(22, 22, 109)
+  );
+}
+.light {
+  --color: #000;
+  --bgc: #fff;
+  --con: rgba(0, 0, 255, 0.688);
+  --skill: darkblue;
+  --body-bgi: linear-gradient(
+    to right bottom,
+    rgb(237, 237, 237),
+    rgb(207, 207, 211),
+    rgb(136, 212, 242),
+    rgb(203, 203, 203),
+    rgb(201, 201, 245),
+    rgb(173, 173, 180),
+    rgb(217, 217, 242),
+    rgb(200, 200, 213),
+    rgb(237, 237, 237),
+    rgb(207, 207, 211),
+    rgb(136, 212, 242),
+    rgb(203, 203, 203),
+    rgb(201, 201, 245),
+    rgb(173, 173, 180),
+    rgb(217, 217, 242),
+    rgb(200, 200, 213)
+  );
+}

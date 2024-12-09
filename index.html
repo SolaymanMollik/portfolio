@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solayman || Portfolio || Dev</title>
+    <script src="assest/all-boiler-css-file/tali-wind.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- =============================== essantial link start her e=============================================  -->
+    <link rel="stylesheet" href="assest/my-css/basic.css" />
+    <link rel="stylesheet" href="assest/my-css/nav.css" />
+    <!-- =============================== essantial link end here  ============================================= -->
+  </head>
+  <body class="">
+    <main class="max-w-[100vw]" style="overflow-x: hidden">
+      <!-- ========================================== nav srart here ==================================  -->
+      <header class="relative">
+        <nav
+          class="grid place-items-center absolute left-0 top-0 w-full"
+          id="nav-1"
+          style="color: var(--color); z-index: 1000000"
+        >
+          <div
+            class="align-items-center flex border-[0.3px] border-sky-500 h-[2.5rem] justify-between lg:h-[4.5rem] max-w-[1880px] mt-2 nav-main-div py-2 rounded-full w-[92vw]"
+            style="background-color: var(--bgc)"
+          >
+            <div class="align-items-center flex gap-10 ml-3 nav-div-1">
+              <div class="nav-div1-item1">
+                <h2 class="italic text-xl" style="font-family: cursive">
+                  SOLAYMAN
+                </h2>
+              </div>
+              <div class="hidden lg:flex gap-5 ml-10 text-sm">
+                <a class="cursor-none text-sky-500">HOME</a>
+                <a href="#about-sec" class="hover:text-sky-500">ABOUT ME</a>
+                <a href="#skill-sec" class="hover:text-sky-500">MY SKILLS</a>
+                <a href="#project-sec" class="hover:text-sky-500">PROJECTS</a>
+                <a href="#blog-sec" class="hover:text-sky-500">BLOG</a>
+              </div>
+              <div class="nav-div1-item2"></div>
+            </div>
+            <div class="block lg:hidden mr-6">
+              <i class="fa-solid fa-bars" id="navbar-bar"></i>
+            </div>
+            <div class="align-items-center hidden lg:flex gap-3 nav-div-2">
+              <div class="align-items-center gap-2 theme-button hidden lg:flex">
+                <p>light</p>
+                <span class="js-theme theme-btn"
+                  ><span id="theme-ball"></span
+                ></span>
+                <p>dark</p>
+              </div>
+              <a href="#contact-sec"
+                ><div
+                  class="grid place-items-center contact-me-btn font-bold h-[2rem] lg:h-[3.7rem] lg:mr-2 lg:w-[10rem] mr-1 rounded-full text-sm w-[7rem]"
+                >
+                  CONTACT ME
+                </div></a
+              >
+            </div>
+          </div>
+        </nav>
+        <nav
+          class="hidden fixed h-[100vh] left-[30vw] px-[1rem] py-[4rem] top-[0px] w-[70vw]"
+          id="res-nav"
+          style="
+            z-index: 12000;
+            background-color: var(--bgc);
+            color: var(--color);
+          "
+        >
+          <i
+            class="fa-solid fa-x fixed right-[3rem] top-[3rem]"
+            id="navbar-end"
+          ></i>
+          <a href="#"><p>HOME</p></a><a href="#about-sec"><p>ABOUT ME</p></a
+          ><a href="#skill-sec"><p>MY SKILLS</p></a
+          ><a href="#project-sec"><p>PROJECTS</p></a
+          ><a href="#blog-sec"><p>BLOG</p></a
+          ><a href="#contact-sec"><p>CONTACT</p></a>
+          <div class="align-items-center flex gap-2 text-white theme-button">
+            <p style="color: var(--color)">light</p>
+            <span class="js-theme theme-btn"
+              ><span id="theme-ball"></span
+            ></span>
+            <p style="color: var(--color)">dark</p>
+          </div>
+        </nav>
+      </header>
+      <!-- ========================================== nav end here ==================================  -->
+
+      <!-- ========================================== hero srart here ==================================  -->
+      <section
+        class="hero-sec max-w-[1920px] min-h-[60vh] md:h-[100vh] mx-auto relative"
+        style="color: var(--color)"
+      >
+        <div
+          class="md:absolute mt-[30%] md:mt-0 mx-[1.5rem] md:top-[30%] md:left-[07%]"
+        >
+          <h2 class="text-[2rem] font-light">Front-End Web Developer</h2>
+          <h1 class="text-[3rem] md:text-[5rem] font-bold mt-3 font-sans">
+            Solayman <br />
+            ibne Nasir
+          </h1>
+        </div>
+        <div
+          class="md:absolute md:right-[5%] md:top-[50%] w-full px-2 md:w-[30vw] pl-3 mx-[1.5rem] mt-5 md:mt-0"
+          style="border-left: 1px solid var(--color)"
+        >
+          <h3 class="text-[1.8rem] font-light">
+            Remote Front-End Excellence: Building Digital Futures from
+            Bangladesh
+          </h3>
+        </div>
+      </section>
+      <!-- ========================================== hero end here ==================================  -->
+
+      <!-- =============================== about me start =============================== -->
+
+      <section
+        class="about-sec w-[90vw] md:w-[90vw] md:w-[80vw] mx-auto max-w-[1600px] mx-auto py-[5rem] grid gap-5 grid-cols-1 md:grid-cols-2"
+        style="color: var(--color)"
+        id="about-sec"
+      >
+        <div class="relative grid place-items-center">
+          <div
+            class="rounded-full w-[50vw] md:w-[80%] aspect-square bg-cover bg-no-repet bg-center"
+            style="background-image: url(assest/img/prof-copy.jpeg)"
+          ></div>
+          <h1
+            class="text-[3rem] md:text-[4rem] hidden md:block absolute font-bold heading-font"
+            style="top: 0; right: -15%"
+          >
+            About <br />
+            Me
+          </h1>
+          <h1
+            class="text-[3rem] md:text-[4rem] relative md:hidden font-bold heading-font"
+          >
+            About Me
+          </h1>
+        </div>
+        <div class="flex align-items-end" style="color: var(--color)">
+          <p class="mb-10">
+            <span class="text-lg font-bold"
+              >Hello, I'm Solayman Bin Nasir!</span
+            >
+            <br />
+            <br />
+            <b>
+              Are you looking for a front-end developer who can transform your
+              ideas into stunning, high-performing web applications? Look no
+              further! </b
+            ><br />
+            I craft responsive, visually stunning websites and applications that
+            deliver seamless user experiences. With expertise in modern
+            JavaScript frameworks and responsive design, I tailor every project
+            to your unique needs. From sleek single-page designs to complex
+            applications, I bring your vision to life with clean, scalable code
+            and cutting-edge solutions. Let’s create something extraordinary
+            that sets you apart. Ready to start? Let’s make your dream project a
+            reality!
+          </p>
+        </div>
+      </section>
+
+      <!-- =============================== about me end =============================== -->
+
+      <!-- ================================== my skill start ================================== -->
+      <section
+        class="my-skill-sec w-full max-w-[1800px] py-[5rem] mx-auto"
+        id="skill-sec"
+      >
+        <div
+          class="flex align-items-center justify-between gap-5 w-[90vw] md:w-[80vw] mx-auto mb-10"
+        >
+          <h1
+            class="text-[3rem] md:text-[4rem] font-bold heading-font"
+            style="color: var(--color)"
+          >
+            My Skills
+          </h1>
+        </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-5 w-[80%] mx-auto font-bold text-xl text-white"
+        >
+          <div class="flex justify-between align-items-center">
+            <p style="color: var(--color)">html</p>
+            <div class="progress-div progress-div-1">
+              <span></span><span></span> <span></span><span></span> <span></span
+              ><span></span> <span></span><span></span> <span></span
+              ><span></span>
+            </div>
+          </div>
+          <div class="flex justify-between align-items-center">
+            <p style="color: var(--color)">css</p>
+            <div class="progress-div progress-div-2">
+              <span></span><span></span> <span></span><span></span> <span></span
+              ><span></span> <span></span><span></span> <span></span
+              ><span></span>
+            </div>
+          </div>
+          <div class="flex justify-between align-items-center">
+            <p style="color: var(--color)">tailwind</p>
+            <div class="progress-div progress-div-3">
+              <span></span><span></span> <span></span><span></span> <span></span
+              ><span></span> <span></span><span></span> <span></span
+              ><span></span>
+            </div>
+          </div>
+          <div class="flex justify-between align-items-center">
+            <p style="color: var(--color)">bootstrap</p>
+            <div class="progress-div progress-div-4">
+              <span></span><span></span> <span></span><span></span> <span></span
+              ><span></span> <span></span><span></span> <span></span
+              ><span></span>
+            </div>
+          </div>
+          <div class="flex justify-between align-items-center">
+            <p style="color: var(--color)">javascript</p>
+            <div class="progress-div progress-div-5">
+              <span></span><span></span> <span></span><span></span> <span></span
+              ><span></span> <span></span><span></span> <span></span
+              ><span></span>
+            </div>
+          </div>
+          <div class="flex justify-between align-items-center">
+            <p style="color: var(--color)">jquery</p>
+            <div class="progress-div progress-div-6">
+              <span></span><span></span> <span></span><span></span> <span></span
+              ><span></span> <span></span><span></span> <span></span
+              ><span></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ================================== my skill end ================================== -->
+      <!-- ================================== my projects start ================================== -->
+
+      <section
+        class="my-projects w-[90vw] md:w-[80vw] max-w-[1800px] mx-auto"
+        id="project-sec"
+      >
+        <h1
+          class="text-right text-[3rem] md:text-[4rem] font-bold mt-10 mb-10 heading-font"
+          style="color: var(--color)"
+        >
+          My projects
+        </h1>
+
+        <div class="w-full py-[2rem] relative block md:flex gap-5">
+          <img
+            loading="lazy"
+            src="assest/img/spmple2.jpg"
+            class="w-full md:w-[60%] rounded-[2rem]"
+            alt="Project --1"
+          />
+          <div class="relative" style="color: var(--color)">
+            <h2 class="text-2xl md:text-5xl font-bold">
+              Tailwind CSS: My First Experience
+            </h2>
+            <p class="text-3xl font-light py-2">june - 2022</p>
+          </div>
+        </div>
+        <!-- item 2  -->
+
+        <div class="w-full py-[2rem] relative block md:flex gap-5 justify-end">
+          <div class="relative hidden md:block" style="color: var(--color)">
+            <h2 class="text-2xl md:text-5xl font-bold">
+              A Minimalist Approach: My Bootstrap Project
+            </h2>
+            <p class="text-3xl font-light py-2">feb - 2023</p>
+          </div>
+          <img
+            loading="lazy"
+            src="assest/img/boot-project.webp"
+            class="w-full md:w-[60%] rounded-[2rem]"
+            alt="Project --2"
+          />
+          <div class="relative block md:hidden" style="color: var(--color)">
+            <h2 class="text-2xl md:text-5xl font-bold">
+              A Minimalist Approach: My Bootstrap Project
+            </h2>
+            <p class="text-3xl font-light py-2">feb - 2023</p>
+          </div>
+        </div>
+        <!-- item 3 -->
+        <div class="w-full py-[2rem] relative block md:flex gap-5">
+          <img
+            loading="lazy"
+            src="assest/img/js-projects.webp"
+            class="w-full md:w-[60%] rounded-[2rem]"
+            alt="Project --3"
+          />
+          <div class="relative" style="color: var(--color)">
+            <h2 class="text-2xl md:text-5xl font-bold">
+              A Journey Through the World of JavaScript
+            </h2>
+            <p class="text-3xl font-light py-2">july - 2023</p>
+          </div>
+        </div>
+        <!-- item 4  -->
+        <div class="w-full py-[2rem] relative block md:flex gap-5 justify-end">
+          <div class="relative hidden md:block" style="color: var(--color)">
+            <h2 class="text-2xl md:text-5xl font-bold">
+              jQuery: Turning JavaScript into a Breeze.
+            </h2>
+            <p class="text-3xl font-light py-2">jan - 2024</p>
+          </div>
+          <img
+            loading="lazy"
+            src="assest/img/project-4.png"
+            class="w-full md:w-[60%] rounded-[2rem]"
+            alt="Project --4"
+          />
+          <div class="relative md:hidden block" style="color: var(--color)">
+            <h2 class="text-2xl md:text-5xl font-bold">
+              jQuery: Turning JavaScript into a Breeze.
+            </h2>
+            <p class="text-3xl font-light py-2">jan - 2024</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================== my projects end ================================== -->
+
+      <!-- ================================== my blogs srart ================================== -->
+      <section
+        class="my-blogs mx-auto w-[90vw] md:w-[80vw] md:max-w-[1800px]"
+        style="color: var(--color)"
+        id="blog-sec"
+      >
+        <h1 class="heading-font text-[3rem] md:text-[4rem] font-bold pt-10">
+          My blogs
+        </h1>
+
+        <div
+          class="w-full grid grid gap-5 grid-cols-1 md:grid-cols-2 py-[5rem] md:pt-[15rem]"
+        >
+          <div>
+            <img
+              loading="lazy"
+              src="assest/img/blog-tailwind.avif"
+              class="w-full rounded-[1rem]"
+              alt="blog --1"
+            />
+            <h3 class="text-2xl mb-3">
+              My Journey with Tailwind CSS: Simplicity Meets Power
+            </h3>
+            <p class="font-light">
+              Discover how Tailwind CSS revolutionized my approach to front-end
+              development, simplifying complex designs while empowering
+              creativity and efficiency.
+            </p>
+          </div>
+          <div class="mt-[0px] md:mt-[-10rem]">
+            <img
+              loading="lazy"
+              src="assest/img/blog-bootstrap.avif"
+              class="w-full rounded-[1rem]"
+              alt="blogs --2"
+            />
+            <h3 class="text-2xl mb-3">
+              My Journey with Bootstrap: The Framework That Simplifies Front-End
+              Development
+            </h3>
+            <p class="font-light">
+              Explore how Bootstrap streamlined my development process, enabling
+              faster, responsive designs while maintaining flexibility and
+              consistency.
+            </p>
+          </div>
+          <div>
+            <img
+              loading="lazy"
+              src="assest/img/blog-js.webp"
+              class="w-full rounded-[1rem]"
+              alt="blogs --3"
+            />
+            <h3 class="text-2xl mb-3">
+              Embracing the Power of JavaScript: A Developer's Journey
+            </h3>
+            <p class="font-light">
+              Dive into how JavaScript reshaped my approach to web development,
+              unlocking creativity and efficiency with its versatile
+              capabilities.
+            </p>
+          </div>
+          <div class="mt-[0px] md:mt-[-10rem]">
+            <img
+              loading="lazy"
+              src="assest/img/blog-jquery.avif"
+              class="w-full rounded-[1rem]"
+              alt="blogs img 1"
+            />
+            <h3 class="text-2xl mb-3">
+              Mastering jQuery: A Developer’s Perspective
+            </h3>
+            <p class="font-light">
+              Discover how jQuery transformed my approach to web development,
+              simplifying tasks and enabling the creation of dynamic,
+              interactive user experiences.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- ================================== my blogs end ================================== -->
+      <!-- ================================== my contact me start ================================== -->
+
+      <section
+        class="contact-sec py-[5rem] w-full max-w-[1800px] bg-cover bg-no-repet bg-left md:bg-center text-white"
+        style="background-image: url(assest/img/contact-bg-01.jpg)"
+        id="contact-sec"
+      >
+        <h1 class="heading-font text-5xl md:text-[5rem] font-bold text-center">
+          Contact Me
+        </h1>
+        <br />
+
+        <div class="grid place-items-center">
+          <span class="flex gap-3 align-items-center"
+            ><i class="fa-solid fa-location-dot mb-2"></i>
+            <p class="text-xl mb-2">Jhalakati, Brishal , Bangladesh</p></span
+          >
+          <span class="flex gap-3 align-items-center"
+            ><i class="fa-regular fa-envelope mb-1"></i>
+            <a href="mailto:devnasir7814@gmail.com" target="_blank"
+              ><p class="text-xl mb-2">devnasir7814@gmail.com</p></a
+            ></span
+          >
+          <a
+            href="https://wa.me/8801580357814?text=Hello%20there!"
+            target="_blank"
+          >
+            <span class="flex gap-3 align-items-center"
+              ><i class="fa-brands fa-whatsapp"></i>
+              <p>+880-158035-7814 (recomended)</p></span
+            >
+          </a>
+          <a href="https://www.instagram.com/devnasir2008/" target="_blank">
+            <span class="flex gap-3 align-items-center"
+              ><i class="fa-brands fa-instagram"></i>
+              <p>Visit My Instagram</p></span
+            >
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61569877290992"
+            target="_blank"
+          >
+            <span class="flex gap-3 align-items-center"
+              ><i class="fa-brands fa-facebook"></i>
+              <p>Visit My Facebook</p></span
+            >
+          </a>
+        </div>
+      </section>
+
+      <!-- ================================== my contact me end ================================== -->
+    </main>
+    <!-- <i class="fa-brands fa-instagram"></i> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="assest/my-css/index.js"></script>
+    <script src="assest/my-css/form.js"></script>
+  </body>
+</html>
